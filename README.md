@@ -1,57 +1,56 @@
-# Project Name
+---
+services: Storage
+platforms: java
+author: viananth
+---
 
-(short, 1-3 sentenced, description of the project)
-
-## Features
-
-This project framework provides the following features:
-
-* Feature 1
-* Feature 2
-* ...
-
-## Getting Started
-
-### Prerequisites
-
-(ideally very short, if any)
-
-- OS
-- Library version
-- ...
-
-### Installation
-
-(ideally very short)
-
-- npm install [package name]
-- mvn install
-- ...
-
-### Quickstart
-(Add steps to get up and running quickly)
-
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+## Getting Started with Storage - Manage Storage Account - in Java ##
 
 
-## Demo
+  Azure Stack Storage sample for managing storage accounts -
+   - Create a storage account
+   - Get | regenerate storage account access keys
+   - Create another storage account
+   - Update Storage account by enabling encryption
+   - List storage accounts
+   - Delete a storage account.
+ 
 
-A demo app is included to show how to use the project.
+## Running this Sample ##
 
-To run the demo, follow these steps:
+To run this sample:
 
-(Add steps to start up the demo)
+1. Clone the repository using the following command:
 
-1.
-2.
-3.
+    git clone https://github.com/Azure-Samples/hybrid-storage-java-manage-storage-accounts.git
 
-## Resources
+2. Create an Azure Stack service principal and assign a role to access the subscription. For instructions on creating a service principal, see [Use Azure PowerShell to create a service principal with a certificate](https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-create-service-principals).
 
-(Any additional resources or related projects)
+3. Set the following required environment variable values:
 
-- Link to supporting information
-- Link to similar sample
-- ...
+    * AZURE_TENANT_ID
+
+    * AZURE_CLIENT_ID
+
+    * AZURE_CLIENT_SECRET
+
+    * AZURE_SUBSCRIPTION_ID
+
+    * ARM_ENDPOINT
+
+    * RESOURCE_LOCATION
+
+4. Change directory to sample:
+    
+    * cd hybrid-storage-java-manage-storage-accounts
+
+5. Run the sample:
+    * mvn clean compile exec:java
+
+## More information ##
+
+[http://azure.com/java](http://azure.com/java)
+
+---
+
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

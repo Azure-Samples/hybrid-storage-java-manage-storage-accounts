@@ -1,10 +1,10 @@
 ## [project-title] Changelog
 
-<a name="x.y.z"></a>
-# x.y.z (yyyy-mm-dd)
+<a name="1.0.0"></a>
+# 1.0.0 (2018-10-05)
 
 *Features*
-* ...
+* Azure Stack sample for managing Storage accounts
 
 *Bug Fixes*
 * ...

@@ -1,5 +1,5 @@
 ---
-services: Storage
+services: Azure Stack
 platforms: java
 author: viananth
 ---

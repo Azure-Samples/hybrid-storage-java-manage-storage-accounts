@@ -4,7 +4,7 @@ platforms: java
 author: viananth
 ---
 
-## Getting Started with Storage - Manage Storage Account - in Java ##
+# Hybrid-Storage-Java-Manage-StorageAccounts #
 
 
   Azure Stack Storage sample for managing storage accounts -

@@ -1,7 +1,11 @@
 ---
-services: Azure-Stack
-platforms: java
-author: viananth
+page_type: sample
+languages:
+- java
+products:
+- azure
+description: "Azure Stack Storage sample for managing storage accounts"
+urlFragment: hybrid-storage-java-manage-storage-accounts
 ---
 
 # Hybrid-Storage-Java-Manage-StorageAccounts #

@@ -8,7 +8,7 @@ description: "Azure Stack Storage sample for managing storage accounts"
 urlFragment: hybrid-storage-java-manage-storage-accounts
 ---
 
-# Hybrid-Storage-Java-Manage-StorageAccounts #
+# Manage hybrid storage accounts (Java)
 
 
   Azure Stack Storage sample for managing storage accounts -

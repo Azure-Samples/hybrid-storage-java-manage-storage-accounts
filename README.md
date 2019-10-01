@@ -10,7 +10,6 @@ urlFragment: hybrid-storage-java-manage-storage-accounts
 
 # Manage hybrid storage accounts (Java)
 
-
   Azure Stack Storage sample for managing storage accounts -
    - Create a storage account
    - Get | regenerate storage account access keys
@@ -54,7 +53,5 @@ To run this sample:
 ## More information ##
 
 [http://azure.com/java](http://azure.com/java)
-
----
 
 This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

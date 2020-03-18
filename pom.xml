@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.microsoft.azure</groupId>
-  <artifactId>hybrid-storage-java-manage-storage-accounts</artifactId>
+  <artifactId>hybrid-compute-java-manage-vm</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ManageStorageAccount.java</name>
+  <name>ManageVirtualMachine.java</name>
   <description></description>
-  <url>https://github.com/Azure-Samples/hybrid-storage-java-manage-storage-accounts</url>
+  <url>https://github.com/Azure-Samples/hybrid-compute-java-manage-vm</url>
   <build>
     <plugins>
       <plugin>
@@ -15,7 +15,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
         <configuration>
-          <mainClass>com.microsoft.azure.management.storage.samples.ManageStorageAccount</mainClass>
+          <mainClass>com.microsoft.azure.management.compute.samples.ManageVirtualMachine</mainClass>
         </configuration>
       </plugin>
       <plugin>
@@ -40,7 +40,7 @@
               </descriptorRefs>
               <archive>
                 <manifest>
-                  <mainClass>com.microsoft.azure.management.storage.samples.ManageStorageAccount.java</mainClass>
+                  <mainClass>com.microsoft.azure.management.compute.samples.ManageVirtualMachine.java</mainClass>
                 </manifest>
               </archive>
             </configuration>
@@ -53,7 +53,7 @@
     <dependency>
       <groupId>com.microsoft.azure</groupId>
       <artifactId>azure</artifactId>
-      <version>1.16.0</version>
+      <version>1.31.1</version>
     </dependency>
     <dependency>
       <groupId>commons-net</groupId>
@@ -73,7 +73,7 @@
     <dependency>
       <groupId>com.microsoft.azure</groupId>
       <artifactId>azure-client-authentication</artifactId>
-      <version>1.5.2</version>
+      <version>1.7.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -90,5 +90,15 @@
       <artifactId>json</artifactId>
       <version>20141113</version>
     </dependency>
+    <dependency>
+      <groupId>com.microsoft.azure</groupId>
+      <artifactId>azure-client-runtime</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+       <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.10.2</version>
+   </dependency>
   </dependencies>
 </project>

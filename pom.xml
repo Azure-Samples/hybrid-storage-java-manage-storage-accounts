@@ -3,11 +3,11 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.microsoft.azure</groupId>
-  <artifactId>hybrid-compute-java-manage-vm</artifactId>
+  <artifactId>hybrid-storage-java-manage-storage-accounts</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ManageVirtualMachine.java</name>
+  <name>ManageStorageAccounts.java</name>
   <description></description>
-  <url>https://github.com/Azure-Samples/hybrid-compute-java-manage-vm</url>
+  <url>https://github.com/Azure-Samples/hybrid-storage-java-manage-storage-accounts</url>
   <build>
     <plugins>
       <plugin>
@@ -15,7 +15,7 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
         <configuration>
-          <mainClass>com.microsoft.azure.management.compute.samples.ManageVirtualMachine</mainClass>
+          <mainClass>com.microsoft.azure.management.storage.samples.ManageStorageAccount</mainClass>
         </configuration>
       </plugin>
       <plugin>
@@ -40,7 +40,7 @@
               </descriptorRefs>
               <archive>
                 <manifest>
-                  <mainClass>com.microsoft.azure.management.compute.samples.ManageVirtualMachine.java</mainClass>
+                  <mainClass>com.microsoft.azure.management.storage.samples.ManageStorageAccount.java</mainClass>
                 </manifest>
               </archive>
             </configuration>

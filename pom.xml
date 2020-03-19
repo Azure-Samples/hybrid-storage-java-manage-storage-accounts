@@ -5,7 +5,7 @@
   <groupId>com.microsoft.azure</groupId>
   <artifactId>hybrid-storage-java-manage-storage-accounts</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>ManageStorageAccount.java</name>
+  <name>ManageStorageAccounts.java</name>
   <description></description>
   <url>https://github.com/Azure-Samples/hybrid-storage-java-manage-storage-accounts</url>
   <build>
@@ -53,7 +53,7 @@
     <dependency>
       <groupId>com.microsoft.azure</groupId>
       <artifactId>azure</artifactId>
-      <version>1.16.0</version>
+      <version>1.31.1</version>
     </dependency>
     <dependency>
       <groupId>commons-net</groupId>
@@ -66,14 +66,14 @@
       <version>2.6</version>
     </dependency>
     <dependency>
-      <groupId>com.microsoft.azure.profile_2018_03_01_hybrid</groupId>
+      <groupId>com.microsoft.azure.profile_2019_03_01_hybrid</groupId>
       <artifactId>azure</artifactId>
-      <version>1.0.0-beta</version>
+      <version>1.0.0-beta-1</version>
     </dependency>
     <dependency>
       <groupId>com.microsoft.azure</groupId>
       <artifactId>azure-client-authentication</artifactId>
-      <version>1.5.2</version>
+      <version>1.7.2</version>
     </dependency>
     <dependency>
       <groupId>org.apache.httpcomponents</groupId>
@@ -90,5 +90,15 @@
       <artifactId>json</artifactId>
       <version>20141113</version>
     </dependency>
+    <dependency>
+      <groupId>com.microsoft.azure</groupId>
+      <artifactId>azure-client-runtime</artifactId>
+      <version>1.7.2</version>
+    </dependency>
+       <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-annotations</artifactId>
+      <version>2.10.2</version>
+   </dependency>
   </dependencies>
 </project>
